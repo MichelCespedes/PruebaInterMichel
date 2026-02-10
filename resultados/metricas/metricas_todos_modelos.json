@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-02-10T12:02:42.600144",
+  "modelo_ganador": "RandomForest",
+  "razon_seleccion": "El modelo RandomForest fue seleccionado como ganador debido a que obtuvo el mayor CV F1-Score promedio (0.7955) entre todos los competidores. Adem\u00e1s, demostr\u00f3 una excelente capacidad de generalizaci\u00f3n con un F1-Score en el set de prueba de 0.8750. \n\nComparativa detallada contra otros modelos:\n- LogisticRegression (CV F1: 0.6875, Dif: +0.1080)\n- XGBoost (CV F1: 0.0762, Dif: +0.7193)",
+  "metricas_ganador": {
+    "test_accuracy": 0.9285714285714286,
+    "test_f1": 0.8750000000000001,
+    "test_precision": 0.7777777777777778,
+    "test_recall": 1.0,
+    "test_roc_auc": 0.9931972789115646,
+    "cv_f1_mean": 0.7955155955155955,
+    "cv_f1_std": 0.10801788951408582
+  },
+  "comparativa_todos_modelos": {
+    "RandomForest": {
+      "cv_f1_mean": 0.7955155955155955,
+      "test_f1": 0.8750000000000001,
+      "test_roc_auc": 0.9931972789115646
+    },
+    "LogisticRegression": {
+      "cv_f1_mean": 0.6875213675213675,
+      "test_f1": 0.75,
+      "test_roc_auc": 0.9591836734693878
+    },
+    "XGBoost": {
+      "cv_f1_mean": 0.07619047619047618,
+      "test_f1": 0.0,
+      "test_roc_auc": 0.5
+    }
+  }
+}

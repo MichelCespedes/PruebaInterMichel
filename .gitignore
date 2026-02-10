@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos generados (Capas Silver y Gold)
+datos/silver/*.csv
+datos/gold/*.csv
+!datos/bronze/raw_data_customers.csv
+
+# Modelos (Excluidos por tamaño)
+modelos/*.pkl
+
+# Resultados y Visualizaciones (Incluidos para el README de GitHub)
+# resultados/metricas/*.json
+# resultados/visualizaciones/*.png
+
+# IDEs
+.vscode/
+.idea/
