@@ -165,10 +165,11 @@ proyecto_churn/
 
 ### Instalación
 
-1. **Clonar o descargar el proyecto**
+1. **Clonar el proyecto**
 
 ```bash
-cd proyecto_churn
+git clone https://github.com/MichelCespedes/PruebaInterMichel.git
+cd PruebaInterMichel
 ```
 
 2. **Crear entorno virtual (recomendado)**
