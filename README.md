@@ -654,24 +654,12 @@ RANDOM_STATE = 42  # Usado en todos los procesos estocásticos
 - Bronze: Datos con timestamp de ingesta
 - Silver/Gold: Metadata de transformación guardada
 
----
-
-## 👨‍💻 Autor
-
-**Prueba Técnica - Científico de Datos**
-
-Desarrollado con enfoque en:
-- ✅ Gobierno de datos y privacidad
-- ✅ Decisiones basadas en negocio
-- ✅ Código limpio y documentado
-- ✅ Arquitectura escalable
-- ✅ Preparación para producción en AWS
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto es parte de una prueba técnica para evaluación de capacidades en ciencia de datos y MLOps.
+Este proyecto es parte de una prueba técnica para evaluación de capacidades en ciencia de datos.
 
 ---
 
